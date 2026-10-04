@@ -1,0 +1,15 @@
+node_modules/
+tools/_*.png
+_*.png
+.DS_Store
+Thumbs.db
+
+# The record itself is a commercial Matryoshka recording and is not
+# redistributed — see README. Anything dropped in here under an audio extension
+# stays local; the deck's GLB is the model's *source*, and it very much ships.
+assets/*.mp3
+assets/*.m4a
+assets/*.flac
+assets/*.wav
+assets/*.ogg
+assets/*.opus

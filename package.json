@@ -1,0 +1,18 @@
+{
+  "name": "ohm-deck",
+  "version": "1.0.0",
+  "private": true,
+  "description": "OHM DECK — a belt-drive turntable, modelled in Blender and driven in the browser",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "build:min": "node build.mjs --min",
+    "shots": "node tools/shots.mjs"
+  },
+  "dependencies": {
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  }
+}

@@ -1,0 +1,10 @@
+[
+  { "name": "k1_iso", "wait": 5200 },
+  { "name": "k2_front", "js": "document.querySelector('[data-act=\"next-col\"]').click()", "wait": 3000 },
+  { "name": "k3_top", "js": "document.querySelector('[data-act=\"next-col\"]').click()", "wait": 3000 },
+  { "name": "k4_macro", "js": "document.querySelector('[data-act=\"next-col\"]').click()", "wait": 3000 },
+  { "name": "k5_lid_shut", "js": "document.getElementById('btn-lid').click(); document.getElementById('btn-lid').title", "wait": 3200 },
+  { "name": "k6_lid_open", "js": "document.getElementById('btn-lid').click(); document.getElementById('btn-lid').title", "wait": 3200 },
+  { "name": "k7_playing", "js": "document.getElementById('btn-play').click()", "wait": 4200 },
+  { "name": "k8_noir", "js": "document.querySelector('[data-theme=\"noir\"]').click()", "wait": 3500 }
+]

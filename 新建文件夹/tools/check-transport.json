@@ -1,0 +1,5 @@
+[
+  { "name": "p0_idle", "wait": 4200 },
+  { "name": "p1_press", "js": "(()=>{const a=document.getElementById('tape-audio'),s=document.getElementById('seek');window.__log=[];const t0=performance.now();const id=setInterval(()=>{window.__log.push([Math.round(performance.now()-t0),+s.value,a.paused,a.currentTime.toFixed(2)]);if(performance.now()-t0>3000)clearInterval(id);},80);document.getElementById('btn-play').click();return 'pressed'})()", "wait": 3200 },
+  { "name": "p2_log", "js": "JSON.stringify(window.__log)", "wait": 200 }
+]
